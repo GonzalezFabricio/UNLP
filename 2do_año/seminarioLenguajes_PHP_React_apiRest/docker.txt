@@ -1,0 +1,13 @@
+//iniciar docker
+docker-compose up -d
+
+
+//apagar docker
+docker-compose down
+
+
+//para cambios grandes
+docker-compose up --build
+
+//ver log
+docker-compose logs -f backend
